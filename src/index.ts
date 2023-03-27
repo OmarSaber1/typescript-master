@@ -20,10 +20,10 @@ const cat: readonlycats = {
   name: "kitty",
 };
 
-cat.age = 12;
+// cat.age = 12;
 
 const arr = [1, 2, 3] as const;
-arr[0] = 1;
+// arr[0] = 1;
 
 // ------------------
 
@@ -44,3 +44,5 @@ const bullDog: dog = {
 };
 
 type listnerObject = listners<dog>;
+
+// ---------
